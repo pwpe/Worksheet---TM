@@ -1,0 +1,51 @@
+%preamble
+\input{Preamble/preamble.tex}
+\usepackage{booktabs} %skal bruges hvis der bruges PDF2LaTEX             
+%preamble slut
+\begin{document}
+\includepdf{Frontpage.pdf}
+\cleardoublepage
+%\clearpage
+%\cleardoublepage
+\input{Titlepage/TitlepageEn.tex} %synopsis
+\cleardoublepage
+%---------Preface---------------
+\input{Chapters/Preface.tex}
+\cleardoublepage
+
+\begin{KeepFromToc}
+	\tableofcontents
+\end{KeepFromToc}
+
+\chapter{Motivation}
+
+
+\chapter{The COPD-patient}
+
+
+\chapter{Telehealth and COPD}
+
+
+\chapter{State of the Art in Telehealth}
+
+
+\chapter{Interviews with Healthcare Professionals}
+\input{Chapters/Conclusion.tex}
+
+\chapter{Personal Informatics}
+
+
+\chapter{Design}
+
+
+\chapter{Future Research}
+
+
+%---------Reference---------
+\bibliography{Bibtex/References}\label{lastpage}
+
+%-----------Appendix-------------
+%\appendix
+%\chapter{Appendix}
+
+\end{document}

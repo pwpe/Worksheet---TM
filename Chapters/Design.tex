@@ -1,0 +1,391 @@
+The following chapter provides an overview of the design and prototyping process, including the challenges met at different stages and the solutions that we found internally in APPlab and in cooperation with the nurse researchers, who developed the Urostomy Education Scale (UES). It also provides insight into the results of a small usability test conducted at the Department of Urology, Aarhus University Hospital (AUH), prior to a planned high fidelity test in Spring 2016. 
+
+\section{General Overview}
+The two nurse researchers, who developed the UES proposed the idea of using mobile technology and creating an application on the basis of the UES to APPlab in December 2014. 
+
+An general overview of the user journey can be seen on Figure \ref{fig:journey}
+
+
+\begin{figure}[!h] \centering
+			\includegraphics[width=0.9\textwidth]{Images/UXjourney.png}
+		\caption{User journey: 1) A urostomy is chosen as a result of e.g. bladder cancer. The patient takes part in pre-operative preparation with a physician and a stoma nurse. 2) Patient gets a stoma surgery and is admitted at the hospital. 3) Patient gets stoma self-care education from a stoma nurse, who documents the results in the EHR. 4) Patient gets discharged after seven days and a community nurse takes over the responsibility of teaching the patient stoma self-care if needed. Data is delivered from stoma nurse at hospital to community nurse through phone. 5) After self-management education, patient can self-manage his/her urostomy and has adjusted to a new lifestyle.} \label{fig:journey}
+\end{figure}
+
+
+
+As mentioned in the previous chapter, the goal was to make use of  mobile technology in order to: 
+
+\begin{itemize}
+\item Get an overview of the patient's progression
+\item Involve the patient in the self-management education
+\item Transmit the data for use in primary care
+\item Input recommendations in relation to the patient's current level
+\item Create a patient database for research purposes 
+\end{itemize}
+
+The following section provides an overview of the design and prototype development process. 
+
+
+%Hvad er APPlab for en storrelse? 
+ %- Hvad laver man i APPlab, hvad laver man ikke 
+%Noget omkring, hvornaar projektet kom ind i APPlab? 
+%Hvad processen har vaeret? 
+
+
+\subsection{Process}
+In the process of developing the application, APPlab had the role of screening, evaluating and qualifying the idea from when the stoma nurses came to APPlab with the idea (See Figure \ref{fig:applab}). 
+
+
+\begin{figure}[!h] \centering
+			\includegraphics[width=0.6\textwidth]{Images/applabmodel.png}
+		\caption{Method of development in APPlab} \label{fig:applab}
+\end{figure}
+
+In December 2014, the two project managers in APPlab, who are experts in health care and technology) screened the idea and evaluated, whether the need could be solved with an app, whether it is the best solution and what other solutions exist. All ideas from employees in the Central Danish Region also have to go through an evaluation by the Technology Transfer Office (TTO), which APPlab facilitated for the nurse researchers. 
+
+The two project managers from APPlab discussed the idea with the nurse researchers and facilitated them in defining the scope of the project. They found that the application had potentials in assisting nurses in teaching stoma self-care to patients by providing feedback on patients' progression not only through an overview of the patient's progression, but also compared to an expected outcome. The project managers also provided counseling in terms of cost of application and recommended to keep it specific to stoma nurses in the beginning. 
+
+
+%\begin{figure}
+%\centering
+%\begin{minipage}{0.5\textwidth}
+%\centering
+%\includegraphics[width=0.4\textwidth]{Images/applabmodel.png}
+%			\caption{APPlab's } \label{fig:applab}
+%\end{minipage}\hfill
+%\begin{minipage}{0.5\textwidth}
+%\centering
+%\includegraphics[width=0.6\textwidth]{Images/process.png}
+%			\caption{APPlab's } \label{fig:applab}
+%\end{minipage}
+%\end{figure}
+
+As seen on Figure \ref{fig:applab}, a group of students and interns in APPlab take over the responsibility of making several iterations on sketching and prototyping, when the idea has been screened by the project managers. The process involves field studies, workshops and interviews as seen on Figure \ref{fig:process}.
+
+\begin{figure}[!h] \centering
+			\includegraphics[width=1\textwidth]{Images/process.png}
+		\caption{Process in APPlab} \label{fig:process}
+\end{figure}
+
+
+I was assigned to the project in September 2015, where the idea was in the visual prototyping and usability testing phase. At that point, the concept had been developed based on field work, workshops and interviews by previous groups of students in APPlab and the final visual prototype from sketches was to be evaluated by the nurse researchers. 
+
+The goal was to make the final iterations on the visual prototype and test it, in order to develop a testable high fidelity prototype (See Figure \ref{fig:process}). 
+
+%Concept almost done. Next step - revised concept design. 
+%\begin{itemize}
+%\item Field work (Contextual Inquiry, problems with cooperation) 
+%\item Focus group (Workshop)
+%\end{itemize}
+
+%\subsection{Constraints} \label{constraints}
+%
+%
+%
+%- No patient information (Logger man ind? Hvilke informationer registrerer man med? (Fx hvornaar, hvem har indtastet det?))
+%- Challenges with EPJ 
+%
+%- Focus on implementation of registration and implementation 
+
+
+\subsection{Storyboard}
+Even though the application potentially could be beneficial for many different users (as proposed on Figure \ref{stakeholders} in Chapter \ref{chap:problemanalysis}), it was important to limit the scope and focus only on the needs of the stoma nurses at the hospitals in the prototype. 
+
+%The application is therefore targeted stoma nurses, who have to facilitate and help patients learn seven different skills related to changing stoma appliance. Unlike the current implementation of the Urostomy Education Scale, it has to facilitate nurses in getting a quick and easy overview of the patient's progress.
+
+Due to lack of documentation on the field work done previously (addressed in Process Analysis), a storyboard was created to get a grip on the user, context and use of the product. The storyboard was helpful in identifying aspects of the context that were essential for the design, but not clear from previous work. E.g. \textit{Does the stoma nurse check the patient's score before walking in to the patient? What information is important for her? How does she use the information? Does the order of the different steps matter? When and how does the stoma nurse register the score?}. 
+
+Ideally, this should have been investigated in field studies (e.g. through contextual inquiry) or interviews with stoma nurses, but this was not possible at the point of time, where we proposed it to the nurse researchers. A storyboard was created from the available knowledge (See Figure \ref{fig:storyboard}). 
+
+\begin{figure}[!h] \centering
+			\includegraphics[width=1\textwidth]{Images/storyboard.png}
+		\caption{Storyboard. \textbf{1) Context:} The stoma nurse teaches the patient the necessary self-management skills \textbf{2) What the user perceives:} The nurse perceives a screen with the seven skills (objectives) a patient is required to be able to self-manage \textbf{3) Action required:} The nurse is required to score the patient according to the patient's current abilities by tapping on the correct fields on the screen \textbf{4) Feedback given:} When the nurse has scored the patient, he/she get feedback on the patient's current progression in relation to the expected outcome \textbf{5) Result:} Nurse has documented today's progression, can now get insight into which skills have to be of focus in the next session or which skills the community nurse should focus on, when the patient is discharged. She can also show the patient the progression and discuss the objectives with the patient.} \label{fig:storyboard}
+\end{figure}
+ 
+
+
+From the available knowledge, we decided to challenge the existing concept and focused on brainstorming new ideas for registering the patient's score and visualizing the data. 
+
+
+
+%Nuvaerende brugssituation uklar, men ud fra noter generelt storyboard 
+%
+%7 dage efter operation —> klinikere /sygeplejerske oplaerer patienter
+%
+%Klinikeren kan faa et hurtigt overblik over hvor langt patienten er i forlobet/hvor godt vedkommende klarer sig ved et pointsystem
+
+%\section{Constraints}
+
+%\begin{itemize}
+%\item Target group - Previous master thesis indicate that patients do not have the ability to self-rehabilitate through technology
+%\item Nurses do not know what they can do with an app. (What is their requirements? → They are actually talking about CDS)
+%\end{itemize}
+
+
+\begin{figure}
+\centering
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Images/firstIterationReg.png}
+			\caption{Registration of the patient's score (first iteration made by previous students)} \label{fig:firstReg}
+\end{minipage}\hfill
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Images/firstIterationVis.png}
+			\caption{Visualization of the patient's score (first iteration made by previous students)} \label{fig:firstVis}
+\end{minipage}
+\end{figure}
+
+\section{Design Samples}
+Design samples were created using Adobe Photoshop CC. In order to show continuity in the process, we tried to make the design consistent to the previous visual prototypes that the nurse researchers had seen (See Figure \ref{fig:firstReg} and Figure \ref{fig:firstVis}). These designs were made for tablet devices (Apple iPad 2, 1024 x 768 px resolution), considered appropriate due to the context in which nurses might have to share the screen for communicating with the patient and at the same time be mobile. 
+
+Design samples were revised several times after feedback on morning meetings from the APPlab team. The APPlab team consists of students with different professional backgrounds, ranging from medical students to UI/UX designers, innovation/business students and programmers. 
+
+The following sections provide an insight to some of the different design samples (All design samples can be found on the Enclosed CD). 
+
+%We followed some of Apple's iOS Human Interface Guidelines (kilde), in order to make the application consistent and user friendly with the standard interface. 
+
+ 
+\subsection*{Data Visualization}
+In terms of fonts and colors, we tried to keep the interface design as simple as possible and the color tones neutral. 
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+{\color[HTML]{000000} \textbf{Before}}                                                                                                                & \textbf{After}                                                                               \\ \hline
+Red: -2 compared to expected score                                                                                                                    & Red: -2 compared to expected score                                                           \\ \hline
+Yellow: -1 compared to expected score                                                                                                                 & Yellow: -1 compared to expected score                                                        \\ \hline
+\begin{tabular}[c]{@{}l@{}}Green: +1, +2 or +3 compared to expected\\  score or same as expected score, but progress \\ since day before\end{tabular} & \begin{tabular}[c]{@{}l@{}}Green: 0, +1, +2 or +3 compared to \\ expected score\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}l@{}}Grey: Same as expected score and no progress \\ since day before\end{tabular}                                              &                                                                                              \\ \hline
+\end{tabular}
+\caption{Table showing difference in color codes before and after revision of design}
+\label{color}
+\end{table}
+
+As opposed to the previous design samples that had four different color codes in the data visualization (See Figure \ref{fig:firstVis}) we tried to simplify the color-coding system by only providing three different colors (See Table \ref{color}). We proposed designs, where the numbers showed the day-to-day progression and colors indicated the progression compared to the expected score (See Figure \ref{fig:VisNo}). 
+
+We also proposed design ideas, where the data was visualized on graphs (See Figure \ref{fig:VisGraphs}), instead of having the numbers presented as in the paper-version. 
+
+\begin{figure}
+\centering
+\begin{minipage}{0.46\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Images/visualizationNums.png}
+			\caption{Overview of the patient's score with numbers. Numbers on the right show the day-to-day progression, where colors indicate the progression compared to the expected score} \label{fig:VisNo}
+\end{minipage}\hfill
+\begin{minipage}{0.46\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{Images/visualizationGraphs.png}
+			\caption{Overview of the patient's score with graphs instead of numbers. Orange line showing the expected score and blue line showing the actual patient progression} \label{fig:VisGraphs}
+\end{minipage}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[width=0.9\textwidth]{Images/RegistreringFeedback.png}
+			\caption{Real-time feedback on patient's \newline current score in the right side} \label{fig:RegistreringFeedback}
+\end{minipage}\hfill
+\begin{minipage}{0.5\textwidth}
+\centering
+\includegraphics[width=0.9\textwidth]{Images/RegistreringUdvikling.png}
+			\caption{Patient's score progression on reaction to stoma in a graph view} \label{fig:RegistreringUdvikling}
+\end{minipage}
+\end{figure}
+
+
+\subsection*{Registration}
+In our iterations, we proposed design samples that provided the nurses with real-time feedback \textit{while} registering, showing the patients' progression in comparison to expected score through red, yellow and green color coding. We also proposed graphs showing the whole progression of the patient for each of the seven skills on the registration screen (See Figure \ref{fig:RegistreringUdvikling}), in order for nurses to be able to show and discuss the patient's progression while registering, since we did not know \textit{when} the nurse usually registers the patient's scores. 
+
+We also proposed the idea of simplifying the text in the UES with less text as seen on Figure \ref{fig:RegistreringFeedback} and different ways of registering (not shown) than the originally proposed idea (See Figure \ref{fig:firstReg}). 
+ 
+%\subsection{Internal Feedback}
+%
+%
+%\begin{itemize}
+%\item Discussion on use of numbers and colors to indicate day-to-day progression versus progression compared to expected score. 
+%\item Discussion on registration part. Simplification of the original scale and/or suggestions on other ways of registering.
+%\end{itemize}
+
+\subsection{Feedback from Nurse Researchers}
+The different design samples were presented to the nurse researchers for feedback (See Enclosed CD for detailed feedback). The following section only provides the main findings. 
+
+Since the idea of showing the expected score was relatively new to the nurse researchers, this was a major concern to the nurses. One of the nurse researchers was concerned about the idea of showing the "expected score" before the education session and while registering. She was concerned that the focus would be too much on the expected score and less focus would be on the patient's individual needs, if shown before the education session. None of the nurse researchers were able to answer, when stoma nurses usually register the patients' scores. We decided to remove it on the screen with registration, in order to simplify the screen, but decided to keep it before and after registration with the goal of testing the effect, when used in the context. 
+
+The nurse researchers were fond of the idea of having graphs for visualizing the data, but they were not convinced that all nurses would be able to use the graphs. They proposed having both a number and graph view in the next iteration. 
+
+After discussing the advantages of simplifying the registration screen and providing the user with less text, the nurse researcher discussed the idea internally and decided that they should not change the text at all. They were convinced that they should keep an identical text as on the original UES scale, as it was the validated text that should be in the application. 
+
+
+\section{User Interface Flow}
+From the feedback that the nurse researchers gave us, we created a revised design and a user interface flow diagram (See Figure \ref{fig:UIflow}) to gain a high-level overview of the user interface for the application. This allowed for getting an understanding of the flow between major user interface elements. 
+
+
+\begin{figure}[!h] \centering
+			\includegraphics[width=1\textwidth]{Images/navflow.png}
+		\caption{User Interface Flow Diagram of the application} \label{fig:UIflow}
+\end{figure}
+
+The user interface flow diagram was used to create a protoype for usability testing. 
+
+\section{Interface Design Description}
+
+With main focus on the registration and the data visualization, we prototyped four different screens with functionality using Axure RP 8 BETA. We followed some of \textit{Apple's iOS Human Interface Guidelines} \citep{apple}, in order to make the application consistent and user friendly with the standard interface of an iPad. 
+
+The goal with prototyping in Axure RP 8 BETA was to give the stoma nurses an idea of the user interface design, flow and the most important functionality, being: 
+
+\begin{itemize}
+\item Creating and choosing a patient in the application
+\item Registering new scores for a patient 
+\item Understanding data visualization of patient's progression
+\end{itemize}
+
+In the following, each of the screens in the prototype is  presented with an interface design description. 
+\newpage
+
+
+\subsection*{Screen A: Create or Choose Patient}
+
+\begin{figure}[H] \centering
+			\includegraphics[width=0.6\textwidth]{Images/Screenshots/CreateOrChoose.png}
+		\caption{Screen A: Create or choose patient screen} \label{fig:screenA}
+\end{figure}
+
+Screen A (See Figure \ref{fig:screenA}) is the start screen providing the user with immediate access to an overview of patients created in the application. 
+
+The user is here provided with following options:
+\begin{enumerate}
+\item \textbf{Create Patient:} Create a new patient for registration (Navigates to Screen A1)
+\item \textbf{Choose Patient:} Choose a patient on the overview of existing patients. (Navigates to Screen B1)
+\end{enumerate}
+
+
+The user can also use the search field to search for a patient. While in this iteration of the prototype the user interacts by simply tapping to select one of the above-mentioned options, we also considered providing options, such as swiping with one finger to delete or edit a user profile . \newpage
+
+\subsection*{Screen A1: Create Patient}
+
+\begin{figure}[H] \centering
+			\includegraphics[width=0.6\textwidth]{Images/Screenshots/Create.png}
+		\caption{Screen A1: Create patient screen} \label{fig:screenA1}
+\end{figure}
+
+Screen A1  (See Figure \ref{fig:screenA1}) provides the user with a number of input fields to input patient characteristics and create a patient profile that can be used for registration. 
+
+It provides the user with following options: 
+\begin{enumerate}
+\item \textbf{Back:} Go back to previous screen without creating a new patient (Navigates to Screen A)
+\item \textbf{Create} Create a new patient using the data input in the input fields (Navigates to Screen A). In this version of the prototype, the data input by the user is not saved, but a new patient is created, if the user chooses create. 
+\end{enumerate}\newpage
+
+
+
+\subsection*{Screen B1: Choose Patient - Number View}
+
+\begin{figure}[H] \centering
+			\includegraphics[width=0.6\textwidth]{Images/Screenshots/PatientNumber.png}
+		\caption{Screen B1: Choose Patient - Number View} \label{fig:screenB1}
+\end{figure}
+
+Screen B1 (See Figure \ref{fig:screenB1}) provides a detailed overview of the patient's day-to-day score for each of the seven skills and a total score. 
+Blue fields are scores already registered, while the empty fields are registrations to follow. White fields with numbers are previous registrations. 
+
+Two columns with numbers are further presented in this view, the first one being the patient's progression from the day before and the second being the expected score. After feedback from the nurse researchers, we decided to simplify the color-coding presented in Table \ref{color} even more and only provide two colors: If the score is red, the patient's score is below what is expected, else if the score is green, the patient's score is as expected. 
+
+
+The user is on this screen provided with following options: 
+\begin{enumerate}
+\item \textbf{Back:} Go back to previous screen without making any changes (Navigates to Screen A)
+\item \textbf{Graph:} Toggle to graph view, where the patient's progression can be seen visualized
+\item \textbf{Register:} Create a new registration of patient's scores (Navigates to Screen C)
+\end{enumerate}\newpage
+
+
+\subsection*{Screen B2: Choose Patient - Graph View}
+\begin{figure}[H] \centering
+			\includegraphics[width=0.6\textwidth]{Images/Screenshots/PatientGraph.png}
+		\caption{Screen B1: Choose Patient - Graph View Screen} \label{fig:screenB2}
+\end{figure}
+
+Screen B2  (See Figure \ref{fig:screenB2}) provides graph overviews of the patient's scores for each of the seven skills and a total score. 
+
+The user is on this screen provided with following options: 
+\begin{enumerate}
+\item \textbf{Number:} Toggle to number view, where the patient's progression can be seen in detailed in numbers
+\item \textbf{Register:} Create a new registration of scores (Navigates to Screen C)
+\end{enumerate}  \newpage
+
+
+\subsection*{Screen C: Registration}
+\begin{figure}[H] \centering
+			\includegraphics[width=0.8\textwidth]{Images/Screenshots/PatientUESwith.png}
+		\caption{Screen C: Registration Screen} \label{fig:screenC}
+\end{figure}
+
+
+Screen C (See Figure \ref{fig:screenC}) is the registration screen, where each of the seven skills can be evaluated on the UES using the four-point scoring system described in Chapter \ref{chap:problemanalysis}. The user simply taps on a field to choose it and gets immediate feedback, when the chosen field's color changes and the total score at the bottom updates. The user deselects by tapping again or selecting another scoring of the skill. 
+
+The user is on this screen provided with following options: 
+\begin{enumerate}
+\item \textbf{Back:} Go back without creating a new registration 
+\item \textbf{Done:} Create a new registration (user is required to score on each of the seven skills to be able to choose this option) based on the scoring (Navigates to Screen B1)
+\end{enumerate}
+
+If the user creates a new registration, he/she gets back to Screen B1, where he/she is provided with the same options, but with updated results. \newpage
+
+
+
+
+
+\section{Evaluation}
+
+\subsection{Testing Procedure}
+
+%Our goal with the proof of concept test was to get rapid feedback on the design from the end-users and identify any major problems in the design. 
+
+%We decided to focus on the following three parameters: 
+%\begin{itemize}
+%\item Relevance 
+%\item Easy to use
+%\item Understandable 
+%\end{itemize}
+
+We used cognitive walkthrough to evaluate the prototype. Cognitive walkthrough is a usability method that should be used early in the early stages of prototyping in order to identify major design flaws. It allows for quick evaluation with the users without any requirements of a fully functioning prototype  \citep{usability}. 
+
+The test took place at the Department of Urology at Aarhus University Hospital (Afdeling K) on the 11th of December 2015. Two nurses participated in the test (one of the nurse researchers, who had previously evaluated the design and another stoma nurse at the department). The stoma nurse from the department used the UES daily. 
+
+The testing procedure consisted of following tasks: 
+\begin{enumerate}
+\item Screen A: Create a new patient 
+\item Screen A1: Input fictional values and create a patient
+\item Screen A: Choose an existing patient 
+\item Screen B1: Explain the patient's current status from the view
+\item Screen B1: Make a new registration 
+\item Screen C: Input fictional scores 
+\item Screen C: Save the new registration 
+\item Screen B1: Explain the colors of the numbers
+\item Screen B1: What is the total score?
+\item Screen B1: Choose graph overview
+\item Screen B2: Explain what the second graph shows 
+\end{enumerate}
+
+Test participants were asked to complete the tasks one by one and think-aloud during the process. A test facilitator explained each of the tasks and kept the evaluation running, while an observer recorded the results of the evaluation. The prototype was pilot tested by one of the designers before the test took place. All notes can be found on the Enclosed CD. 
+
+\subsection{Results}
+Since the nurse researcher had already seen the visual prototype and taken part in the design of the prototype we tested, we did not include results from the evaluation with her. She primarily commented on small design-related changes that could be made. 
+
+Despite of the fact that the prototype had a slow response time, which caused some difficulties when the stoma nurse, who evaluated the prototype made several attempts to get response, she did not have any problems creating and choosing a patient in the application. 
+
+One of the main findings from the test was that even though the stoma nurse was used to the number overview in the paper-version of the UES, she did not understand Screen B1 with the number overview of the patient's progression in the prototype. It was challenging for her to understand the numbers, because she was used to have a fully detailed overview with descriptions in the EHR of what each score meant, e.g. \textit{0 means that the patient is totally dependent on the nurse}. The numbers alone did not make much sense. 
+
+She preferred Screen B2 with the graph overview as she described herself as being more visually oriented. According to her, the graph overview was much "easier to understand" and "gives a great overview that does not take as much time to understand".
+
+At first, the test participant did not understand the idea with the expected score and neither did she understand the column with the current progression. She asked the facilitator to explain what -1 in progression meant, again indicating that the numbers were not intuitive. She was not able to explain the color coding and found the overview "difficult to understand". She did understand that the fields represented days and was convinced that she would understand it given time. 
+
+The test participant had no problems completing the next task, in order to get to Screen C, where she immediately pointed out that \textit{this} was something she could recognize and understand. She had no problems scoring the patient, but searched for the "Create"-button at the bottom of the screen and not at the top. 
+
+After the test, we discussed the prototype and how the design could be improved further by first of all correcting the minor design flaws, but also make better use of the "expected score". Even though the prototype at this point operates with fictional values, there was a clear consensus that the application should function as a supporting tool for nurses by providing recommendations for skills to focus on, on the basis of the patient's progression and expected scores. The nurse researcher further acknowledged that the graph overviews were more intuitive and easy to understand than the number overview, and that it is one of the advantages with a mobile application that should be taken advantage of.  
+
+Next step is implementing a high-fidelity prototype after a final iteration focusing on the feedback from the test. The nurse researchers plan a high-fidelity test in Spring 2016. 
