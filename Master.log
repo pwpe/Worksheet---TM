@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.24)  8 MAY 2016 12:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.24)  10 MAY 2016 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1198,48 +1198,48 @@ LaTeX Info: Redefining \nameref on input line 5.
 \openout4 = `Master.out'.
 
 LaTeX Info: Redefining \Ref on input line 5.
- <Frontpage.pdf, id=52, 597.51233pt x 845.0471pt>
+ <Frontpage.pdf, id=80, 597.432pt x 830.14137pt>
 File: Frontpage.pdf Graphic file (type pdf)
 
 <use Frontpage.pdf>
 Package pdftex.def Info: Frontpage.pdf used on input line 6.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
 File: Frontpage.pdf Graphic file (type pdf)
  <use Frontpage.pdf>
 Package pdftex.def Info: Frontpage.pdf used on input line 6.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
 
-<Frontpage.pdf, id=55, page=1, 597.51233pt x 845.0471pt>
+<Frontpage.pdf, id=83, page=1, 597.432pt x 830.14137pt>
 File: Frontpage.pdf Graphic file (type pdf)
 
 <use Frontpage.pdf, page 1>
 Package pdftex.def Info: Frontpage.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+(pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
 File: Frontpage.pdf Graphic file (type pdf)
  <use Frontpage.pdf, page 1>
 Package pdftex.def Info: Frontpage.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
 File: Frontpage.pdf Graphic file (type pdf)
 
 <use Frontpage.pdf, page 1>
 Package pdftex.def Info: Frontpage.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
 File: Frontpage.pdf Graphic file (type pdf)
  <use Frontpage.pdf, page 1>
 Package pdftex.def Info: Frontpage.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
 File: Frontpage.pdf Graphic file (type pdf)
 
 <use Frontpage.pdf, page 1>
 Package pdftex.def Info: Frontpage.pdf, page1 used on input line 6.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+(pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
  [1
 
  <./Frontpage.pdf>] [2
 
 ]
 (./Titlepage/TitlepageEn.tex
-<Images/AAU_LOGO_RGB.png, id=125, 141.1674pt x 83.3514pt>
+<Images/AAU_LOGO_RGB.png, id=118, 141.1674pt x 83.3514pt>
 File: Images/AAU_LOGO_RGB.png Graphic file (type png)
 
 <use Images/AAU_LOGO_RGB.png>
@@ -1291,6 +1291,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 32--35
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--39
 
  []
@@ -1302,6 +1307,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
@@ -1326,66 +1336,190 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 
 ] (./Master.toc) [7] [8
 
-] [9] [10
+] (./Chapters/Motivation.tex) [9] [10
 
-] [11] [12
+] [11]
+[12
 
-] [13] [14
-
-] [15] [16
+] (./Chapters/th.tex) (./Chapters/StateOfTheArt.tex) [13] [14
 
 ]
-(./Chapters/Conclusion.tex [17]
+(./Chapters/PI.tex
 
-LaTeX Warning: Reference `chap:problemanalysis' on page 18 undefined on input l
-ine 28.
+Package natbib Warning: Citation `Chung2016' on page 15 undefined on input line
+ 4.
 
-) [18] [19
 
-] [20
+Package natbib Warning: Citation `Chung2016' on page 15 undefined on input line
+ 17.
 
-] [21] [22
+[15]
 
-] (./Master.bbl [23] [24
+Package natbib Warning: Citation `Chung2016' on page 16 undefined on input line
+ 23.
 
-]) [25]
+
+Package natbib Warning: Citation `Whooley2014' on page 16 undefined on input li
+ne 23.
+
+
+Package natbib Warning: Citation `Chung2016' on page 16 undefined on input line
+ 23.
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 23--24
+[]\T1/futs/b/n/10.95 Self-Improvement[] \T1/futs/m/n/10.95 Common to these self
+-trackers is a desire to change or maintain a
+ []
+
+
+Package natbib Warning: Citation `Whooley2014' on page 16 undefined on input li
+ne 28.
+
+[16]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 32.
+
+
+Package natbib Warning: Citation `Chung2016' on page 17 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Chung2016' on page 17 undefined on input line
+ 38.
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 38--39
+\T1/futs/m/n/10.95 or designed their own tracking systems, such as notebooks, h
+ealth diaries and specific
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+
+Package natbib Warning: Citation `Choe2013' on page 18 undefined on input line 
+48.
+
+
+Package natbib Warning: Citation `Choe2015' on page 18 undefined on input line 
+52.
+
+[18]
+
+Package natbib Warning: Citation `Whooley2014' on page 19 undefined on input li
+ne 57.
+
+
+Package natbib Warning: Citation `Whooley2014' on page 19 undefined on input li
+ne 57.
+
+
+Package natbib Warning: Citation `Rooksby' on page 19 undefined on input line 5
+9.
+
+
+Package natbib Warning: Citation `Whooley2014' on page 19 undefined on input li
+ne 61.
+
+
+Package natbib Warning: Citation `Whooley2014' on page 19 undefined on input li
+ne 62.
+
+
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+ [19]
+
+Package natbib Warning: Citation `Whooley2014' on page 20 undefined on input li
+ne 67.
+
+
+Package natbib Warning: Citation `Chung2016' on page 20 undefined on input line
+ 73.
+
+
+Package natbib Warning: Citation `Chung2016' on page 20 undefined on input line
+ 75.
+
+
+Package natbib Warning: Citation `Chung2016' on page 20 undefined on input line
+ 75.
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 77--79
+\T1/futs/m/n/10.95 irrelevant to their interests. One self-tracker mentioned th
+at she found the provided
+ []
+
+[20]
+
+Package natbib Warning: Citation `Whooley2014' on page 21 undefined on input li
+ne 80.
+
+[21]) [22] [23
+
+] [24
+
+] [25] [26
+
+] [27] [28
+
+] [29] [30
+
+] [31] [32
+
+] [33] [34
+
+]
+(./Master.bbl [35] [36
+
+]
+Underfull \hbox (badness 2205) in paragraph at lines 40--45
+[]\T1/futs/m/n/10.95 I. Li, et al. (2011).  `Understanding my data, myself: sup
+porting self-reflection with
+ []
+
+[37])
+
+Package natbib Warning: There were undefined citations.
+
+[38]
 \tf@toc=\write5
 \openout5 = `Master.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (./Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 69BD6F0FABCC73D8817AEA772C6822BC;640.
+(rerunfilecheck)             Checksum: E77C9C5D1D691B9653875B48610FF95F;1097.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 14499 strings out of 493117
- 208682 string characters out of 6135433
- 431075 words of memory out of 5000000
- 17582 multiletter control sequences out of 15000+600000
- 89842 words of font info for 83 fonts, out of 8000000 for 9000
+ 14624 strings out of 493117
+ 210458 string characters out of 6135433
+ 441857 words of memory out of 5000000
+ 17651 multiletter control sequences out of 15000+600000
+ 98594 words of font info for 87 fonts, out of 8000000 for 9000
  1170 hyphenation exceptions out of 8191
- 44i,18n,78p,1267b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,18n,78p,2336b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texm
 f-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist
 /fonts/type1/public/cm-super/sfsx1000.pfb>
-Output written on Master.pdf (25 pages, 285943 bytes).
+Output written on Master.pdf (38 pages, 4868034 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 621 PDF objects out of 1000 (max. 8388607)
+ 551 compressed objects within 6 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

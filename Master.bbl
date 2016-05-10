@@ -1,9 +1,94 @@
 \begin{thebibliography}{}
 
-\harvarditem[Piwonka \& Merino]{Piwonka \& Merino}{1999}{piwonka}
-M.~Piwonka \& J.~Merino (1999).
-\newblock `A multidimensional modeling of predictors influencing the adjustment
-  to a colostomy'.
-\newblock {\em Journal of \{WOCN\}} {\textbf 26}(6):298 -- 305.
+\harvarditem[Ancker et~al.]{Ancker, et~al.}{2015}{Ancker2015}
+J.~S. Ancker, et~al. (2015).
+\newblock `You Get Reminded You're a Sick Person: Personal Data Tracking and
+  Patients With Multiple Chronic Conditions'.
+\newblock {\em Journal of medical Internet research} {\textbf 17}(8).
+
+\harvarditem[Choe et~al.]{Choe, et~al.}{2014}{Choe2014}
+E.~K. Choe, et~al. (2014).
+\newblock `Understanding quantified-selfers' practices in collecting and
+  exploring personal data'.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pp. 1143--1152. ACM.
+
+\harvarditem[Chung et~al.]{Chung, et~al.}{2015}{Chung2015}
+C.-F. Chung, et~al. (2015).
+\newblock `More than telemonitoring: Health provider use and nonuse of life-log
+  data in irritable bowel syndrome and weight management'.
+\newblock {\em Journal of medical Internet research} {\textbf 17}(8):e203.
+
+\harvarditem[Epstein et~al.]{Epstein, et~al.}{2015}{Epstein2015}
+D.~A. Epstein, et~al. (2015).
+\newblock `A lived informatics model of personal informatics'.
+\newblock In {\em Proceedings of the 2015 ACM International Joint Conference on
+  Pervasive and Ubiquitous Computing}, pp. 731--742. ACM.
+
+\harvarditem[Kessler et~al.]{Kessler, et~al.}{2011}{motSymp}
+R.~Kessler, et~al. (2011).
+\newblock `Symptom variability in patients with severe COPD: a pan-European
+  cross-sectional study' .
+
+\harvarditem[Li et~al.]{Li, et~al.}{2010}{Li2010}
+I.~Li, et~al. (2010).
+\newblock `A stage-based model of personal informatics systems'.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pp. 557--566. ACM.
+
+\harvarditem[Li et~al.]{Li, et~al.}{2011}{Li2011}
+I.~Li, et~al. (2011).
+\newblock `Understanding my data, myself: supporting self-reflection with
+  ubicomp technologies'.
+\newblock In {\em Proceedings of the 13th international conference on
+  Ubiquitous computing}, pp. 405--414. ACM.
+
+\harvarditem[MacLeod et~al.]{MacLeod, et~al.}{2013}{MacLeod2014}
+H.~MacLeod, et~al. (2013).
+\newblock `Personal informatics in chronic illness management'.
+\newblock In {\em Proceedings of Graphics Interface 2013}, pp. 149--156.
+  Canadian Information Processing Society.
+
+\harvarditem[Oh \& Lee]{Oh \& Lee}{2015}{Oh2015}
+J.~Oh \& U.~Lee (2015).
+\newblock `Exploring UX issues in Quantified Self technologies'.
+\newblock In {\em Mobile Computing and Ubiquitous Networking (ICMU), 2015
+  Eighth International Conference on}, pp. 53--59. IEEE.
+
+\harvarditem[Patel et~al.]{Patel, et~al.}{2012}{Patel2012}
+R.~A. Patel, et~al. (2012).
+\newblock `Probing the benefits of real-time tracking during cancer care'.
+\newblock In {\em AMIA Annual Symposium Proceedings}, vol. 2012, p. 1340.
+  American Medical Informatics Association.
+
+\harvarditem[Rodriguez-Roisin]{Rodriguez-Roisin}{2000}{motExace}
+R.~Rodriguez-Roisin (2000).
+\newblock `Toward a consensus definition for copd exacerbations*' .
+
+\harvarditem[Rooksby et~al.]{Rooksby, et~al.}{2014}{Rooksby2014}
+J.~Rooksby, et~al. (2014).
+\newblock `Personal tracking as lived informatics'.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems}, pp. 1163--1172. ACM.
+
+\harvarditem[Ure et~al.]{Ure, et~al.}{2011}{piloting}
+J.~Ure, et~al. (2011).
+\newblock `Piloting tele-monitoring in COPD: a mixed methods exploration of
+  issues in design and implementation'.
+\newblock {\em Primary Care Respiratory Journal} {\textbf 21}(1):57--64.
+
+\harvarditem[Verdezoto \& Gr{\"o}nvall]{Verdezoto \&
+  Gr{\"o}nvall}{2015}{Verdezoto2015}
+N.~Verdezoto \& E.~Gr{\"o}nvall (2015).
+\newblock `On preventive blood pressure self-monitoring at home'.
+\newblock {\em Cognition, Technology \& Work} pp. 1--19.
+
+\harvarditem[WHO]{WHO}{2008}{motStat}
+WHO (2008).
+\newblock `World Health Statistics 2008' .
+
+\harvarditem[WHO et~al.]{WHO, et~al.}{2011}{motWHO}
+WHO, et~al. (2011).
+\newblock `Global Health and Aging' .
 
 \end{thebibliography}
