@@ -3,8 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Master.aux
 The style file: bibtex/harvard.bst
 Database file #1: Bibtex/References.bib
-Warning--I didn't find a database entry for "Chung2016"
-Warning--I didn't find a database entry for "Whooley2014"
 Warning--I didn't find a database entry for "Choe2013"
 Warning--I didn't find a database entry for "Choe2015"
 Warning--I didn't find a database entry for "Rooksby"
@@ -12,45 +10,45 @@ Warning--empty journal in motSymp
 Warning--empty journal in motExace
 Warning--empty journal in motStat
 Warning--empty journal in motWHO
-You've used 16 entries,
+You've used 19 entries,
             2330 wiz_defined-function locations,
-            635 strings with 7613 characters,
-and the built_in function-call counts, 9003 in all, are:
-= -- 974
-> -- 412
-< -- 18
-+ -- 128
-- -- 124
-* -- 685
-:= -- 1480
-add.period$ -- 52
-call.type$ -- 16
-change.case$ -- 128
-chr.to.int$ -- 16
-cite$ -- 20
-duplicate$ -- 386
-empty$ -- 558
-format.name$ -- 164
-if$ -- 1885
+            656 strings with 8555 characters,
+and the built_in function-call counts, 11036 in all, are:
+= -- 1204
+> -- 497
+< -- 21
++ -- 156
+- -- 150
+* -- 834
+:= -- 1796
+add.period$ -- 64
+call.type$ -- 19
+change.case$ -- 154
+chr.to.int$ -- 19
+cite$ -- 23
+duplicate$ -- 476
+empty$ -- 690
+format.name$ -- 196
+if$ -- 2330
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 79
-num.names$ -- 80
-pop$ -- 187
+missing$ -- 19
+newline$ -- 94
+num.names$ -- 95
+pop$ -- 222
 preamble$ -- 1
-purify$ -- 144
+purify$ -- 173
 quote$ -- 0
-skip$ -- 331
+skip$ -- 408
 stack$ -- 0
-substring$ -- 486
-swap$ -- 127
-text.length$ -- 10
+substring$ -- 620
+swap$ -- 163
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 192
+type$ -- 228
 warning$ -- 4
-while$ -- 76
+while$ -- 94
 width$ -- 0
-write$ -- 223
-(There were 9 warnings)
+write$ -- 272
+(There were 7 warnings)

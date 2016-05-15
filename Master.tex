@@ -1,6 +1,7 @@
 %preamble
 \input{Preamble/preamble.tex}
 \usepackage{booktabs} %skal bruges hvis der bruges PDF2LaTEX             
+\definecolor{headerColor}{RGB}{44, 39, 101}
 %preamble slut
 \begin{document}
 \includepdf{Frontpage.pdf}
@@ -20,32 +21,35 @@
 \chapter{Motivation}
 \input{Chapters/Motivation.tex}
 
+
 \chapter{The COPD-patient}
 
 
-\chapter{Telehealth}
+\chapter{Telehealth for COPD}
 \input{Chapters/th.tex}
 \input{Chapters/StateOfTheArt.tex}
+\input{Chapters/hpInterview.tex}
 
 
 \chapter{Personal Informatics}
 \input{Chapters/PI.tex}
 
 
-\chapter{Interviews with Healthcare Professionals}
-
 \chapter{Study I - Interviewing COPD-patients} 
+\input{Chapters/studyOne.tex}
+
 
 \chapter{Study II - Design Sessions with COPD-patients}
+\input{Chapters/studyTwo.tex}
 
 \chapter{Design}
 
 \chapter{Implementation}
 
-\chapter{Study III - Trial}
+\chapter{Study III - Trial with COPD-patients}
 
 \chapter{Future Research}
-
+We have also discussed the use of different media types for detailing different granularities of e.g. dyspnea. This could be on different levels, introducing sound, visuals, a/v and interactions that could actually expand to a whole study in itself
 
 %---------Reference---------
 \bibliography{Bibtex/References}\label{lastpage}
@@ -53,5 +57,6 @@
 %-----------Appendix-------------
 %\appendix
 %\chapter{Appendix}
+\listoffixmes
 
 \end{document}

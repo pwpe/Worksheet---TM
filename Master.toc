@@ -3,8 +3,10 @@
 \contentsline {chapter}{\chapternumberline {1}Preface}{5}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Motivation}{9}{chapter.2}
 \contentsline {chapter}{\chapternumberline {3}The COPD-patient}{11}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}Telehealth}{13}{chapter.4}
-\contentsline {section}{\numberline {4.1}State of the art}{13}{section.4.1}
+\contentsline {chapter}{\chapternumberline {4}Telehealth for COPD}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Current Literature}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}State of the Art}{13}{section.4.2}
+\contentsline {section}{\numberline {4.3}Interviews with Healthcare Professionals}{13}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}Personal Informatics}{15}{chapter.5}
 \contentsline {section}{\numberline {5.1}Why People Track}{15}{section.5.1}
 \contentsline {paragraph}{Documentation:}{15}{section*.4}
@@ -21,11 +23,11 @@
 \contentsline {paragraph}{Reflection:}{20}{section*.12}
 \contentsline {paragraph}{Action:}{21}{section*.13}
 \contentsline {paragraph}{Lapsing and Resuming:}{21}{section*.14}
-\contentsline {chapter}{\chapternumberline {6}Interviews with Healthcare Professionals}{23}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Study I - Interviewing COPD-patients}{25}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Study II - Design Sessions with COPD-patients}{27}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Design}{29}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Implementation}{31}{chapter.10}
-\contentsline {chapter}{\chapternumberline {11}Study III - Trial}{33}{chapter.11}
-\contentsline {chapter}{\chapternumberline {12}Future Research}{35}{chapter.12}
-\contentsline {chapter}{Bibliography}{37}{section*.16}
+\contentsline {chapter}{\chapternumberline {6}Study I - Interviewing COPD-patients}{23}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Study II - Design Sessions with COPD-patients}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Activity Plan}{26}{section.7.1}
+\contentsline {chapter}{\chapternumberline {8}Design}{31}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Implementation}{33}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Study III - Trial with COPD-patients}{35}{chapter.10}
+\contentsline {chapter}{\chapternumberline {11}Future Research}{37}{chapter.11}
+\contentsline {chapter}{Bibliography}{39}{section*.16}

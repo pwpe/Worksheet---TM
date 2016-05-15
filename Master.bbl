@@ -19,6 +19,21 @@ C.-F. Chung, et~al. (2015).
   data in irritable bowel syndrome and weight management'.
 \newblock {\em Journal of medical Internet research} {\textbf 17}(8):e203.
 
+\harvarditem[Chung et~al.]{Chung, et~al.}{2016}{Chung2016}
+C.-F. Chung, et~al. (2016).
+\newblock `Boundary Negotiating Artifacts in Personal Informatics:
+  Patient-Provider Collaboration with Patient-Generated Data'.
+\newblock In {\em Proceedings of the 19th ACM Conference on Computer-Supported
+  Cooperative Work \& Social Computing}, CSCW '16, pp. 770--786, New York, NY,
+  USA. ACM.
+
+\harvarditem[Das et~al.]{Das, et~al.}{2015}{genTech}
+A.~Das, et~al. (2015).
+\newblock `The Use of Generative Techniques in Co-design of mHealth Technology
+  and Healthcare Services for COPD Patients'.
+\newblock In {\em Design, User Experience, and Usability: Interactive
+  Experience Design}, pp. 587--595. Springer International Publishing.
+
 \harvarditem[Epstein et~al.]{Epstein, et~al.}{2015}{Epstein2015}
 D.~A. Epstein, et~al. (2015).
 \newblock `A lived informatics model of personal informatics'.
@@ -90,5 +105,13 @@ WHO (2008).
 \harvarditem[WHO et~al.]{WHO, et~al.}{2011}{motWHO}
 WHO, et~al. (2011).
 \newblock `Global Health and Aging' .
+
+\harvarditem[Whooley et~al.]{Whooley, et~al.}{2014}{Whooley2014}
+M.~Whooley, et~al. (2014).
+\newblock `On the Integration of Self-tracking Data Amongst Quantified Self
+  Members'.
+\newblock In {\em Proceedings of the 28th International BCS Human Computer
+  Interaction Conference on HCI 2014 - Sand, Sea and Sky - Holiday HCI},
+  BCS-HCI '14, pp. 151--160, UK. BCS.
 
 \end{thebibliography}
