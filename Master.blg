@@ -8,47 +8,48 @@ Warning--I didn't find a database entry for "Choe2015"
 Warning--I didn't find a database entry for "Rooksby"
 Warning--empty journal in motSymp
 Warning--empty journal in motExace
+Warning--empty journal in sorenson2013
 Warning--empty journal in motStat
 Warning--empty journal in motWHO
-You've used 19 entries,
+You've used 22 entries,
             2330 wiz_defined-function locations,
-            656 strings with 8555 characters,
-and the built_in function-call counts, 11036 in all, are:
-= -- 1204
-> -- 497
-< -- 21
-+ -- 156
-- -- 150
-* -- 834
-:= -- 1796
-add.period$ -- 64
-call.type$ -- 19
-change.case$ -- 154
-chr.to.int$ -- 19
-cite$ -- 23
-duplicate$ -- 476
-empty$ -- 690
-format.name$ -- 196
-if$ -- 2330
+            672 strings with 9261 characters,
+and the built_in function-call counts, 12783 in all, are:
+= -- 1396
+> -- 570
+< -- 25
++ -- 176
+- -- 170
+* -- 962
+:= -- 2071
+add.period$ -- 74
+call.type$ -- 22
+change.case$ -- 174
+chr.to.int$ -- 22
+cite$ -- 27
+duplicate$ -- 555
+empty$ -- 806
+format.name$ -- 226
+if$ -- 2709
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 19
-newline$ -- 94
-num.names$ -- 95
-pop$ -- 222
+missing$ -- 22
+newline$ -- 108
+num.names$ -- 110
+pop$ -- 254
 preamble$ -- 1
-purify$ -- 173
+purify$ -- 196
 quote$ -- 0
-skip$ -- 408
+skip$ -- 479
 stack$ -- 0
-substring$ -- 620
-swap$ -- 163
-text.length$ -- 13
+substring$ -- 728
+swap$ -- 191
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 228
-warning$ -- 4
-while$ -- 94
+type$ -- 264
+warning$ -- 5
+while$ -- 109
 width$ -- 0
-write$ -- 272
-(There were 7 warnings)
+write$ -- 315
+(There were 8 warnings)

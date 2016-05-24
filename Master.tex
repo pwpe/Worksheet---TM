@@ -4,7 +4,7 @@
 \definecolor{headerColor}{RGB}{44, 39, 101}
 %preamble slut
 \begin{document}
-\includepdf{Frontpage.pdf}
+\includepdf{Frontpage3.pdf}
 \cleardoublepage
 %\clearpage
 %\cleardoublepage 
@@ -39,14 +39,15 @@
 \input{Chapters/studyOne.tex}
 
 
-\chapter{Study II - Design Sessions with COPD-patients}
+\chapter{Study II - Design Feedback Sessions with COPD-patients}
 \input{Chapters/studyTwo.tex}
 
-\chapter{Design}
-
 \chapter{Implementation}
+\input{Chapters/implementation.tex}
+
 
 \chapter{Study III - Trial with COPD-patients}
+\input{Chapters/studyThree.tex}
 
 \chapter{Future Research}
 We have also discussed the use of different media types for detailing different granularities of e.g. dyspnea. This could be on different levels, introducing sound, visuals, a/v and interactions that could actually expand to a whole study in itself
@@ -55,8 +56,12 @@ We have also discussed the use of different media types for detailing different 
 \bibliography{Bibtex/References}\label{lastpage}
 
 %-----------Appendix-------------
-%\appendix
-%\chapter{Appendix}
+\appendix
+\chapter{Appendix}
+\section{Study III - Activity Plan}
+\label{ap3}
+\includepdf[pages=-, pagecommand={}]{Appendices/ActivityplanIII.pdf}
+
 \listoffixmes
 
 \end{document}

@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\harvarditem[Adnan et~al.]{Adnan, et~al.}{2016}{adnan2016}
+M.~Adnan, et~al. (2016).
+\newblock `Investigating Time Series Visualisations to Improve the User
+  Experience'.
+\newblock In {\em Proceedings of the 2016 CHI Conference on Human Factors in
+  Computing Systems}, CHI '16, pp. 5444--5455, New York, NY, USA. ACM.
+
 \harvarditem[Ancker et~al.]{Ancker, et~al.}{2015}{Ancker2015}
 J.~S. Ancker, et~al. (2015).
 \newblock `You Get Reminded You're a Sick Person: Personal Data Tracking and
@@ -26,6 +33,13 @@ C.-F. Chung, et~al. (2016).
 \newblock In {\em Proceedings of the 19th ACM Conference on Computer-Supported
   Cooperative Work \& Social Computing}, CSCW '16, pp. 770--786, New York, NY,
   USA. ACM.
+
+\harvarditem[Cuttone et~al.]{Cuttone, et~al.}{2014}{Cuttone}
+A.~Cuttone, et~al. (2014).
+\newblock `Four Data Visualization Heuristics to Facilitate Reflection in
+  Personal Informatics'.
+\newblock In {\em Universal Access in Human-Computer Interaction. Design for
+  All and Accessibility Practice}, pp. 541--552. Springer.
 
 \harvarditem[Das et~al.]{Das, et~al.}{2015}{genTech}
 A.~Das, et~al. (2015).
@@ -85,6 +99,11 @@ J.~Rooksby, et~al. (2014).
 \newblock `Personal tracking as lived informatics'.
 \newblock In {\em Proceedings of the 32nd annual ACM conference on Human
   factors in computing systems}, pp. 1163--1172. ACM.
+
+\harvarditem[Sorenson \& Brath]{Sorenson \& Brath}{2013}{sorenson2013}
+E.~Sorenson \& R.~Brath (2013).
+\newblock `Financial Visualization Case Study: Correlating Financial Timeseries
+  and Discrete Events to Support Investment Decisions' .
 
 \harvarditem[Ure et~al.]{Ure, et~al.}{2011}{piloting}
 J.~Ure, et~al. (2011).

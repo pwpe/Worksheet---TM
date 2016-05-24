@@ -24,10 +24,22 @@
 \contentsline {paragraph}{Action:}{21}{section*.13}
 \contentsline {paragraph}{Lapsing and Resuming:}{21}{section*.14}
 \contentsline {chapter}{\chapternumberline {6}Study I - Interviewing COPD-patients}{23}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Study II - Design Sessions with COPD-patients}{25}{chapter.7}
-\contentsline {section}{\numberline {7.1}Activity Plan}{26}{section.7.1}
-\contentsline {chapter}{\chapternumberline {8}Design}{31}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Implementation}{33}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Study III - Trial with COPD-patients}{35}{chapter.10}
-\contentsline {chapter}{\chapternumberline {11}Future Research}{37}{chapter.11}
-\contentsline {chapter}{Bibliography}{39}{section*.16}
+\contentsline {section}{\numberline {6.1}Activity Plan}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Own tracking system}{25}{section.6.2}
+\contentsline {chapter}{\chapternumberline {7}Study II - Design Feedback Sessions with COPD-patients}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}The Workbook}{27}{section.7.1}
+\contentsline {section}{\numberline {7.2}The Prototype}{28}{section.7.2}
+\contentsline {section}{\numberline {7.3}Activity Plan}{31}{section.7.3}
+\contentsline {section}{\numberline {7.4}Post Methodological Considerations}{35}{section.7.4}
+\contentsline {chapter}{\chapternumberline {8}Implementation}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}Design Changes}{37}{section.8.1}
+\contentsline {section}{\numberline {8.2}Server-side}{38}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Session}{38}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Data Manipulation}{38}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Client-side}{38}{section.8.3}
+\contentsline {section}{\numberline {8.4}Security}{38}{section.8.4}
+\contentsline {chapter}{\chapternumberline {9}Study III - Trial with COPD-patients}{39}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Future Research}{43}{chapter.10}
+\contentsline {chapter}{Bibliography}{45}{section*.16}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{47}{appendix.A}
+\contentsline {section}{\numberline {A.1}Study III - Activity Plan}{47}{section.A.1}

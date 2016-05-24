@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.24)  15 MAY 2016 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.24)  24 MAY 2016 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1198,48 +1198,48 @@ LaTeX Info: Redefining \nameref on input line 6.
 \openout4 = `Master.out'.
 
 LaTeX Info: Redefining \Ref on input line 6.
- <Frontpage.pdf, id=88, 597.432pt x 830.14137pt>
-File: Frontpage.pdf Graphic file (type pdf)
 
-<use Frontpage.pdf>
-Package pdftex.def Info: Frontpage.pdf used on input line 7.
+<Frontpage3.pdf, id=136, 597.432pt x 830.14137pt>
+File: Frontpage3.pdf Graphic file (type pdf)
+ <use Frontpage3.pdf>
+Package pdftex.def Info: Frontpage3.pdf used on input line 7.
 (pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
-File: Frontpage.pdf Graphic file (type pdf)
- <use Frontpage.pdf>
-Package pdftex.def Info: Frontpage.pdf used on input line 7.
+File: Frontpage3.pdf Graphic file (type pdf)
+
+<use Frontpage3.pdf>
+Package pdftex.def Info: Frontpage3.pdf used on input line 7.
 (pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
+ <Frontpage3.pdf, id=139, page=1, 597.432pt x 830.14137pt>
+File: Frontpage3.pdf Graphic file (type pdf)
 
-<Frontpage.pdf, id=91, page=1, 597.432pt x 830.14137pt>
-File: Frontpage.pdf Graphic file (type pdf)
-
-<use Frontpage.pdf, page 1>
-Package pdftex.def Info: Frontpage.pdf, page1 used on input line 7.
+<use Frontpage3.pdf, page 1>
+Package pdftex.def Info: Frontpage3.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.43054pt x 830.13934pt.
-File: Frontpage.pdf Graphic file (type pdf)
- <use Frontpage.pdf, page 1>
-Package pdftex.def Info: Frontpage.pdf, page1 used on input line 7.
+File: Frontpage3.pdf Graphic file (type pdf)
+ <use Frontpage3.pdf, page 1>
+Package pdftex.def Info: Frontpage3.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
-File: Frontpage.pdf Graphic file (type pdf)
+File: Frontpage3.pdf Graphic file (type pdf)
 
-<use Frontpage.pdf, page 1>
-Package pdftex.def Info: Frontpage.pdf, page1 used on input line 7.
+<use Frontpage3.pdf, page 1>
+Package pdftex.def Info: Frontpage3.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
-File: Frontpage.pdf Graphic file (type pdf)
- <use Frontpage.pdf, page 1>
-Package pdftex.def Info: Frontpage.pdf, page1 used on input line 7.
+File: Frontpage3.pdf Graphic file (type pdf)
+ <use Frontpage3.pdf, page 1>
+Package pdftex.def Info: Frontpage3.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
-File: Frontpage.pdf Graphic file (type pdf)
+File: Frontpage3.pdf Graphic file (type pdf)
 
-<use Frontpage.pdf, page 1>
-Package pdftex.def Info: Frontpage.pdf, page1 used on input line 7.
+<use Frontpage3.pdf, page 1>
+Package pdftex.def Info: Frontpage3.pdf, page1 used on input line 7.
 (pdftex.def)             Requested size: 597.93192pt x 830.83601pt.
  [1
 
- <./Frontpage.pdf>] [2
+ <./Frontpage3.pdf>] [2
 
 ]
 (./Titlepage/TitlepageEn.tex
-<Images/AAU_LOGO_RGB_OWN.png, id=126, 141.1674pt x 93.4692pt>
+<Images/AAU_LOGO_RGB_OWN.png, id=178, 141.1674pt x 93.4692pt>
 File: Images/AAU_LOGO_RGB_OWN.png Graphic file (type png)
 
 <use Images/AAU_LOGO_RGB_OWN.png>
@@ -1281,6 +1281,16 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--25
 
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 30--33
+\T1/futs/m/n/10.95 Designing for Re-flec-tion in Tele-health -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\T1/futs/m/n/10.95 Chronic Ob-struc-tive Pul-monary Dis-ease
  []
 
 
@@ -1344,15 +1354,13 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 5.
-Package hyperref Info: bookmark level for unknown fixme defaults to 0 on input 
-line 14.
 ) [5
 
 ] [6
 
-] (./Master.toc) [7] [8
+] (./Master.toc [7]) [8] (./Chapters/Motivation.tex) [9
 
-] (./Chapters/Motivation.tex) [9] [10
+] [10
 
 ] [11]
 [12
@@ -1401,85 +1409,326 @@ Underfull \hbox (badness 1859) in paragraph at lines 75--77
 at she found the provided
  []
 
-[20] [21]) [22] (./Chapters/studyOne.tex) [23
-
-] [24
-
-] (./Chapters/studyTwo.tex
-Overfull \hbox (12.80927pt too wide) in paragraph at lines 11--12
-[]\T1/futs/m/n/10.95 The tele-health pro-to-type con-tains a com-bined vi-su-al
--i-sa-tion of the mea-sures with dis-crete context-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 20.
+[20] [21]) [22] (./Chapters/studyOne.tex
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 12.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/fourier/ts1futs.fd
 File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-) [26] [27]
-[28] [29]) [30] [31
+) [23
 
-] [32
+] [24]
+<images/study1/prebens.png, id=632, 1948.27875pt x 3026.30624pt>
+File: images/study1/prebens.png Graphic file (type png)
 
-] [33] [34
-
-] [35] [36
-
-] (./Master.bbl [37] [38
+<use images/study1/prebens.png>
+Package pdftex.def Info: images/study1/prebens.png used on input line 106.
+(pdftex.def)             Requested size: 175.33752pt x 272.3558pt.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 107.
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 107.
+) [25 <./images/study1/prebens.png>] [26
 
 ]
-Underfull \hbox (badness 2205) in paragraph at lines 55--60
+(./Chapters/studyTwo.tex
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+ [27]
+<images/study2/collectionObj.png, id=655, 536.0025pt x 714.67pt>
+File: images/study2/collectionObj.png Graphic file (type png)
+
+<use images/study2/collectionObj.png>
+Package pdftex.def Info: images/study2/collectionObj.png used on input line 22.
+
+(pdftex.def)             Requested size: 191.6987pt x 255.59073pt.
+
+Underfull \hbox (badness 1412) in paragraph at lines 23--23
+\T1/futs/m/n/10 lec-tion of ob-jec-tive mea-sure (in
+ []
+
+<images/study2/collectionSub.png, id=656, 2055.68pt x 2742.245pt>
+File: images/study2/collectionSub.png Graphic file (type png)
+
+<use images/study2/collectionSub.png>
+Package pdftex.def Info: images/study2/collectionSub.png used on input line 28.
+
+(pdftex.def)             Requested size: 191.6987pt x 255.70401pt.
+ [28 <./images/study2/collectionObj.png> <./images/study2/collectionSub.png>]
+Underfull \hbox (badness 1072) in paragraph at lines 40--42
+\T1/futs/m/n/10.95 that cartesian coordinate system in general is comparable or
+ more effective than Polar
+ []
+
+<images/study2/v1.png, id=672, 579.16376pt x 772.8875pt>
+File: images/study2/v1.png Graphic file (type png)
+
+<use images/study2/v1.png>
+Package pdftex.def Info: images/study2/v1.png used on input line 50.
+(pdftex.def)             Requested size: 191.6987pt x 255.82022pt.
+
+<images/study2/v2.png, id=673, 580.1675pt x 773.89125pt>
+File: images/study2/v2.png Graphic file (type png)
+
+<use images/study2/v2.png>
+Package pdftex.def Info: images/study2/v2.png used on input line 56.
+(pdftex.def)             Requested size: 191.6987pt x 255.70374pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/study2/v3.png, id=674, 581.17125pt x 772.8875pt>
+File: images/study2/v3.png Graphic file (type png)
+
+<use images/study2/v3.png>
+Package pdftex.def Info: images/study2/v3.png used on input line 65.
+(pdftex.def)             Requested size: 191.6987pt x 254.93573pt.
+
+<images/study2/v4.png, id=675, 580.1675pt x 772.8875pt>
+File: images/study2/v4.png Graphic file (type png)
+
+<use images/study2/v4.png>
+Package pdftex.def Info: images/study2/v4.png used on input line 71.
+(pdftex.def)             Requested size: 191.6987pt x 255.37207pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./images/study2/v1.png> <./images/study2/v2.png> <./images/study2/v3.
+png> <./images/study2/v4.png>]
+<images/study2/Dashboard.png, id=697, 1027.84pt x 1371.1225pt>
+File: images/study2/Dashboard.png Graphic file (type png)
+
+<use images/study2/Dashboard.png>
+Package pdftex.def Info: images/study2/Dashboard.png used on input line 85.
+(pdftex.def)             Requested size: 185.00322pt x 246.7914pt.
+ [31
+
+ <./images/study2/Dashboard.png>] [32]
+[33] [34] [35]) [36] (./Chapters/implementation.tex
+File: images/study2/Dashboard.png Graphic file (type png)
+
+<use images/study2/Dashboard.png>
+Package pdftex.def Info: images/study2/Dashboard.png used on input line 8.
+(pdftex.def)             Requested size: 191.6987pt x 255.72493pt.
+
+Underfull \hbox (badness 8094) in paragraph at lines 9--9
+[][]\T1/futs/m/n/10 Shows the dash-board used in
+ []
+
+<images/implementation/db.PNG, id=754, 1541.76pt x 2055.68pt>
+File: images/implementation/db.PNG Graphic file (type png)
+
+<use images/implementation/db.PNG>
+Package pdftex.def Info: images/implementation/db.PNG used on input line 14.
+(pdftex.def)             Requested size: 191.6987pt x 255.57921pt.
+
+Underfull \hbox (badness 1466) in paragraph at lines 15--15
+\T1/futs/m/n/10 sign changed made as re-sult of
+ []
+
+
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+ [37
+
+ <./images/implementation/db.PNG>]) [38] (./Chapters/studyThree.tex [39
+
+]
+<images/study3/Gunnar12.png, id=772, 426.59375pt x 568.1225pt>
+File: images/study3/Gunnar12.png Graphic file (type png)
+
+<use images/study3/Gunnar12.png>
+Package pdftex.def Info: images/study3/Gunnar12.png used on input line 40.
+(pdftex.def)             Requested size: 191.6987pt x 255.306pt.
+
+<images/study3/Gunnar22.png, id=773, 428.60126pt x 569.12625pt>
+File: images/study3/Gunnar22.png Graphic file (type png)
+
+<use images/study3/Gunnar22.png>
+Package pdftex.def Info: images/study3/Gunnar22.png used on input line 46.
+(pdftex.def)             Requested size: 191.6987pt x 254.54997pt.
+ [40 <./images/study3/Gunnar12.png> <./images/study3/Gunnar22.png>]) [41] [42
+
+] (./Master.bbl [43] [44
+
+]
+Underfull \hbox (badness 1072) in paragraph at lines 4--9
+[]\T1/futs/m/n/10.95 M. Adnan, et al. (2016).  `Investigating Time Series Visua
+lisations to Improve the User
+ []
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 69--74
 []\T1/futs/m/n/10.95 I. Li, et al. (2011).  `Understanding my data, myself: sup
 porting self-reflection with
  []
 
-[39]) (./Master.lox)
+[45]) [46] <Appendices/ActivityplanIII.pdf, id=808, 596.2275pt x 844.15375pt>
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf used on input line 63.
+(pdftex.def)             Requested size: 596.22604pt x 844.15169pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+ <use Appendices/ActivityplanIII.pdf>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf used on input line 63.
+(pdftex.def)             Requested size: 596.22604pt x 844.15169pt.
+
+[47
+
+]
+<Appendices/ActivityplanIII.pdf, id=815, page=1, 596.2275pt x 844.15375pt>
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 1>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page1 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.22604pt x 844.15169pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 1>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page1 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 1>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page1 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 1>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page1 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 1>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page1 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+ [48 <./Appendices/ActivityplanIII.pdf
+
+pdfTeX warning: /usr/local/texlive/2014/bin/universal-darwin/pdflatex (file ./A
+ppendices/ActivityplanIII.pdf): PDF inclusion: invalid other resource which is 
+no dict (key 'ProcSets', type <array>); ignored.
+>] <Appendices/ActivityplanIII.pdf, id=842, page=2, 596.2275pt x 844.15375pt>
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 2>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page2 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 2>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page2 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 2>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page2 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+ [49 <./Appendices/ActivityplanIII.pdf
+
+pdfTeX warning: /usr/local/texlive/2014/bin/universal-darwin/pdflatex (file ./A
+ppendices/ActivityplanIII.pdf): PDF inclusion: invalid other resource which is 
+no dict (key 'ProcSets', type <array>); ignored.
+>] <Appendices/ActivityplanIII.pdf, id=848, page=3, 596.2275pt x 844.15375pt>
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 3>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page3 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 3>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page3 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 3>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page3 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+ [50 <./Appendices/ActivityplanIII.pdf
+
+pdfTeX warning: /usr/local/texlive/2014/bin/universal-darwin/pdflatex (file ./A
+ppendices/ActivityplanIII.pdf): PDF inclusion: invalid other resource which is 
+no dict (key 'ProcSets', type <array>); ignored.
+>] <Appendices/ActivityplanIII.pdf, id=853, page=4, 596.2275pt x 844.15375pt>
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 4>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page4 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 4>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page4 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+File: Appendices/ActivityplanIII.pdf Graphic file (type pdf)
+
+<use Appendices/ActivityplanIII.pdf, page 4>
+Package pdftex.def Info: Appendices/ActivityplanIII.pdf, page4 used on input li
+ne 63.
+(pdftex.def)             Requested size: 596.96295pt x 845.19502pt.
+ [51 <./Appendices/ActivityplanIII.pdf
+
+pdfTeX warning: /usr/local/texlive/2014/bin/universal-darwin/pdflatex (file ./A
+ppendices/ActivityplanIII.pdf): PDF inclusion: invalid other resource which is 
+no dict (key 'ProcSets', type <array>); ignored.
+>] (./Master.lox)
 
 Package natbib Warning: There were undefined citations.
 
-[40]
+[52]
 \tf@toc=\write5
 \openout5 = `Master.toc'.
 
 \tf@lox=\write6
 \openout6 = `Master.lox'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 67.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 67.
  (./Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 6BB5DE3F9B2E97E2D2E5603B7F4FE9D3;1260.
+(rerunfilecheck)             Checksum: B3A933F4CF50E2BBDB1554D6B229FA76;2034.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  ) 
 Here is how much of TeX's memory you used:
- 14718 strings out of 493117
- 211737 string characters out of 6135433
- 442082 words of memory out of 5000000
- 17690 multiletter control sequences out of 15000+600000
- 96395 words of font info for 90 fonts, out of 8000000 for 9000
+ 14894 strings out of 493117
+ 215176 string characters out of 6135433
+ 444823 words of memory out of 5000000
+ 17799 multiletter control sequences out of 15000+600000
+ 108263 words of font info for 95 fonts, out of 8000000 for 9000
  1170 hyphenation exceptions out of 8191
- 44i,18n,78p,2336b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+ 44i,18n,78p,2336b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/tex
 live/2014/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/public/cm-super/sfsx1000.pfb>
-Output written on Master.pdf (40 pages, 5544445 bytes).
+14/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2014/texmf-dist
+/fonts/type1/adobe/utopia/putri8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/cm-super/sfsx1000.pfb>
+Output written on Master.pdf (52 pages, 18500853 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
- 126 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 922 PDF objects out of 1000 (max. 8388607)
+ 798 compressed objects within 8 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 380 words of extra memory for PDF output out of 10000 (max. 10000000)
 

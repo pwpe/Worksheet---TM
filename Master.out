@@ -12,10 +12,22 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{Deciding and Selecting}{section.5.2}% 12
 \BOOKMARK [2][-]{subsection.5.2.2}{Tracking and Acting}{section.5.2}% 13
 \BOOKMARK [0][-]{chapter.6}{Study I - Interviewing COPD-patients}{}% 14
-\BOOKMARK [0][-]{chapter.7}{Study II - Design Sessions with COPD-patients}{}% 15
-\BOOKMARK [1][-]{section.7.1}{Activity Plan}{chapter.7}% 16
-\BOOKMARK [0][-]{chapter.8}{Design}{}% 17
-\BOOKMARK [0][-]{chapter.9}{Implementation}{}% 18
-\BOOKMARK [0][-]{chapter.10}{Study III - Trial with COPD-patients}{}% 19
-\BOOKMARK [0][-]{chapter.11}{Future Research}{}% 20
-\BOOKMARK [0][-]{section*.16}{Bibliography}{}% 21
+\BOOKMARK [1][-]{section.6.1}{Activity Plan}{chapter.6}% 15
+\BOOKMARK [1][-]{section.6.2}{Own tracking system}{chapter.6}% 16
+\BOOKMARK [0][-]{chapter.7}{Study II - Design Feedback Sessions with COPD-patients}{}% 17
+\BOOKMARK [1][-]{section.7.1}{The Workbook}{chapter.7}% 18
+\BOOKMARK [1][-]{section.7.2}{The Prototype}{chapter.7}% 19
+\BOOKMARK [1][-]{section.7.3}{Activity Plan}{chapter.7}% 20
+\BOOKMARK [1][-]{section.7.4}{Post Methodological Considerations}{chapter.7}% 21
+\BOOKMARK [0][-]{chapter.8}{Implementation}{}% 22
+\BOOKMARK [1][-]{section.8.1}{Design Changes}{chapter.8}% 23
+\BOOKMARK [1][-]{section.8.2}{Server-side}{chapter.8}% 24
+\BOOKMARK [2][-]{subsection.8.2.1}{Session}{section.8.2}% 25
+\BOOKMARK [2][-]{subsection.8.2.2}{Data Manipulation}{section.8.2}% 26
+\BOOKMARK [1][-]{section.8.3}{Client-side}{chapter.8}% 27
+\BOOKMARK [1][-]{section.8.4}{Security}{chapter.8}% 28
+\BOOKMARK [0][-]{chapter.9}{Study III - Trial with COPD-patients}{}% 29
+\BOOKMARK [0][-]{chapter.10}{Future Research}{}% 30
+\BOOKMARK [0][-]{section*.16}{Bibliography}{}% 31
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 32
+\BOOKMARK [1][-]{section.A.1}{Study III - Activity Plan}{appendix.A}% 33
