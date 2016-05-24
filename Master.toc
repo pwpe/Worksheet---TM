@@ -2,44 +2,46 @@
 \select@language {english}
 \contentsline {chapter}{\chapternumberline {1}Preface}{5}{chapter.1}
 \contentsline {chapter}{\chapternumberline {2}Motivation}{9}{chapter.2}
-\contentsline {chapter}{\chapternumberline {3}The COPD-patient}{11}{chapter.3}
+\contentsline {chapter}{\chapternumberline {3}The COPD Patient}{11}{chapter.3}
 \contentsline {chapter}{\chapternumberline {4}Telehealth for COPD}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Current Literature}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}State of the Art}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Interviews with Healthcare Professionals}{13}{section.4.3}
+\contentsline {section}{\numberline {4.2}State of the Art}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Interviews with Healthcare Professionals}{14}{section.4.3}
 \contentsline {chapter}{\chapternumberline {5}Personal Informatics}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Why People Track}{15}{section.5.1}
-\contentsline {paragraph}{Documentation:}{15}{section*.4}
-\contentsline {paragraph}{Life Experience}{15}{section*.5}
-\contentsline {paragraph}{Communication}{15}{section*.6}
+\contentsline {section}{\numberline {5.1}Why People Track}{16}{section.5.1}
+\contentsline {paragraph}{Documentation}{16}{section*.4}
+\contentsline {paragraph}{Life Experience}{16}{section*.5}
+\contentsline {paragraph}{Communication}{16}{section*.6}
 \contentsline {paragraph}{Self-Knowledge}{16}{section*.7}
 \contentsline {paragraph}{Self-Improvement}{16}{section*.8}
-\contentsline {section}{\numberline {5.2}How People Track}{16}{section.5.2}
+\contentsline {section}{\numberline {5.2}How People Track}{17}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Deciding and Selecting}{17}{subsection.5.2.1}
 \contentsline {paragraph}{Preparation}{17}{section*.9}
 \contentsline {subsection}{\numberline {5.2.2}Tracking and Acting}{18}{subsection.5.2.2}
-\contentsline {paragraph}{Collection:}{18}{section*.10}
-\contentsline {paragraph}{Integration:}{19}{section*.11}
-\contentsline {paragraph}{Reflection:}{20}{section*.12}
-\contentsline {paragraph}{Action:}{21}{section*.13}
-\contentsline {paragraph}{Lapsing and Resuming:}{21}{section*.14}
-\contentsline {chapter}{\chapternumberline {6}Study I - Interviewing COPD-patients}{23}{chapter.6}
+\contentsline {paragraph}{Collection}{18}{section*.10}
+\contentsline {paragraph}{Integration}{19}{section*.11}
+\contentsline {paragraph}{Reflection}{20}{section*.12}
+\contentsline {paragraph}{Action}{21}{section*.13}
+\contentsline {paragraph}{Lapsing and Resuming}{22}{section*.14}
+\contentsline {chapter}{\chapternumberline {6}Study I - Interviewing COPD Patients about Needs}{23}{chapter.6}
 \contentsline {section}{\numberline {6.1}Activity Plan}{23}{section.6.1}
 \contentsline {section}{\numberline {6.2}Own tracking system}{25}{section.6.2}
-\contentsline {chapter}{\chapternumberline {7}Study II - Design Feedback Sessions with COPD-patients}{27}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}Study II - Design Feedback Sessions with COPD Patients}{27}{chapter.7}
 \contentsline {section}{\numberline {7.1}The Workbook}{27}{section.7.1}
 \contentsline {section}{\numberline {7.2}The Prototype}{28}{section.7.2}
 \contentsline {section}{\numberline {7.3}Activity Plan}{31}{section.7.3}
 \contentsline {section}{\numberline {7.4}Post Methodological Considerations}{35}{section.7.4}
 \contentsline {chapter}{\chapternumberline {8}Implementation}{37}{chapter.8}
 \contentsline {section}{\numberline {8.1}Design Changes}{37}{section.8.1}
+\contentsline {paragraph}{When all color indicators were green (or only one yellow/red)}{38}{section*.16}
+\contentsline {paragraph}{When at least two measures were yellow/red}{38}{section*.17}
 \contentsline {section}{\numberline {8.2}Server-side}{38}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Session}{38}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Data Manipulation}{38}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Client-side}{38}{section.8.3}
-\contentsline {section}{\numberline {8.4}Security}{38}{section.8.4}
-\contentsline {chapter}{\chapternumberline {9}Study III - Trial with COPD-patients}{39}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}Future Research}{43}{chapter.10}
-\contentsline {chapter}{Bibliography}{45}{section*.16}
-\contentsline {appendix}{\chapternumberline {A}Appendix}{47}{appendix.A}
-\contentsline {section}{\numberline {A.1}Study III - Activity Plan}{47}{section.A.1}
+\contentsline {subsection}{\numberline {8.2.2}Data Manipulation}{39}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Client-side}{39}{section.8.3}
+\contentsline {section}{\numberline {8.4}Security}{39}{section.8.4}
+\contentsline {chapter}{\chapternumberline {9}Study III - Trial with COPD Patients}{41}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}Future Research}{45}{chapter.10}
+\contentsline {chapter}{Bibliography}{47}{section*.21}
+\contentsline {appendix}{\chapternumberline {A}Appendix}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Study III - Activity Plan}{49}{section.A.1}

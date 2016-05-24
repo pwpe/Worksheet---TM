@@ -13,6 +13,11 @@ J.~S. Ancker, et~al. (2015).
   Patients With Multiple Chronic Conditions'.
 \newblock {\em Journal of medical Internet research} {\textbf 17}(8).
 
+\harvarditem[Bootstrap]{Bootstrap}{2016}{bootstrap}
+Bootstrap (2016).
+\newblock `{Bootstrap v3}'.
+\newblock \url{http://getbootstrap.com/}.
+
 \harvarditem[Choe et~al.]{Choe, et~al.}{2014}{Choe2014}
 E.~K. Choe, et~al. (2014).
 \newblock `Understanding quantified-selfers' practices in collecting and
@@ -53,6 +58,16 @@ D.~A. Epstein, et~al. (2015).
 \newblock `A lived informatics model of personal informatics'.
 \newblock In {\em Proceedings of the 2015 ACM International Joint Conference on
   Pervasive and Ubiquitous Computing}, pp. 731--742. ACM.
+
+\harvarditem[Highcharts]{Highcharts}{2016}{highcharts}
+Highcharts (2016).
+\newblock `{Highcharts JS}'.
+\newblock \url{https://github.com/highcharts/highcharts}.
+
+\harvarditem[JustGage]{JustGage}{2016}{justgage}
+JustGage (2016).
+\newblock `{JustGage}'.
+\newblock \url{https://github.com/toorshia/justgage}.
 
 \harvarditem[Kessler et~al.]{Kessler, et~al.}{2011}{motSymp}
 R.~Kessler, et~al. (2011).
