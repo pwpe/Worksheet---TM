@@ -1,4 +1,4 @@
-We developed the system as a web application using both server-side and client-side programming. This chapter presents both sides of the programming, starting with describing the adjustments made to the design based on findings from Study II. Privacy and security considerations and implementation are described at the end of the chapter. The developed application can be found on attached CD.
+We developed the application using both server-side and client-side programming. This chapter presents both sides of the programming, starting with describing the adjustments made to the design based on findings from Study II. Privacy and security considerations and implementation are described at the end of the chapter. The developed application can be found on attached CD.
 
 \section{Design Changes}
 
@@ -42,91 +42,67 @@ Reflective questions were redesigned to target overall health status and updated
 \item You have multiple measures showing red/yellow. Have you examined whether your normal range is adjusted to your needs? (Look at settings gear in the upper left corner)
 \end{itemize}
 
-The reflective question updates after one or more measures are  entered.
-
 \subsection*{Visualisation Choice}
-We provided patients with four visualisations in study II and from the feedback found that patients had different preferences. Based on findings from literature and patients' statements about the visualisations, we chose Visualisation 1 for long-term reflection (See Figure \ref{fig:visualization}). 
+We provided patients with four visualisations and from the feedback found that patients had different preferences. Based on findings from literature and patients' statements about the visualisations, we chose Visualisation 1 for long-term reflection (See Figure \ref{fig:visualization}). 
  
 \subsection*{Normal Area}
-Based on findings from previous research and findings from Study I showing that patients preferred their own normal area we provided the patients with a settings option to individualize the normal area for each objective measure (See Figure \ref{fig:settings}). 
+Based on findings from previous research and findings from Study I showing that patients preferred their own normal area. we provided the patients with a settings option to individualize the normal area for each objective measure (See Figure \ref{fig:settings}). 
 
 \begin{figure}[h]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{images/implementation/settingsImp.png}
-    \caption{Settings.}
+    \caption{Settings}
     \label{fig:settings}
   \end{minipage}
   \hfill
   \begin{minipage}[b]{0.45\textwidth}
     \includegraphics[width=\textwidth]{images/implementation/v1Imp.PNG}
-    \caption{Visualisation 1.}
+    \caption{Visualisation 1}
     \label{fig:visualization}
   \end{minipage}
 \end{figure}
 
 
 
-\section{Server-side Programming}
-For the server-side programming we use PHP. More specific, we use PHP to create sessions and to manipulate the user's data. 
+\section{Server-side}
+
 
 \subsection{Session}
-We create a session when the user logs on the system. A session is a way to store variables across multiple pages, which is the case (e.g.) when a patient navigates from the dashboard to collection. By saving an identification variable in the session, the system will know who logged in across multiple pages. We programmed the session to automatically end the session after an hour. We created two types of directories, one for the patients and one for administrator purposes. The administrator directory was made inaccessible to users (using the session).
-
-\textbf{Administrator Access}
-
-The administrator page provided access to our log, where we had a live view of the current use. We used it as investigation tool when we had a minor mix-up with user credentials. We also used it to see if patients had started to use the system and if any needed a reminder. We also made it possible to do manual logging, which we used when logging in as a patient.
-
-We also made an administrator page for adding data to the different user's profiles, which we used when we entered the patients' measures from the paper template, which they filled out prior to the study. We also used it to add patient information to each user profile, where the system automatically calculated normal areas for weight. 
 
 
-\subsection{Data}
-We stored the patients' data in JSON, which is easy to navigate within from client-side (in javascript). We developed a data-structure, which you can see on figure \ref{fig:dStructure}. The data structure holds information of the user's normal areas, the measures, whether latest entry was all measures or just one (which decides if a reflection note will be stored on a single measure or on all six) and a reflection part that hold information of what reflective questions the user has received and the latest reflective question (in order to visualise it again when a user returns to the system).
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.5]{images/implementation/dataStructure.png}
-\caption{Data structure.}
-\label{fig:dStructure}
-\end{figure}
+\textbf{Admin Access}
 
-\textbf{Webservices}
+admin features
 
-We made multiple webservices to manipulate the user's data. With use of an example we explain the principles of the webservices and how they are used to manipulate data. As example we will save the latest reflective question the user has received in the user's data:
 
-The server gets a call from the client with the latest reflective question received. By using a data class (which we developed for all webservices that manipulates user data) the data class, based on the session, finds the path to the user's JSON and returns the user data. The webservice now updates the data and saves it using the same data class again. The process can be seen on figure \ref{fig:webservice}.
+\subsection{Data Manipulation}
+data structure (json, log)
+webservice - saveLatestQuestion
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.5]{images/implementation/webservice.png}
-\caption{Webservice for saving the latest reflective question the user received.}
-\label{fig:webservice}
-\end{figure}
+ 
+ 
  
 \section{Client-side}
 
 \textbf{Get user data}
 
-In order to get each user's data on login, we use ajax from the jquery library. By updating html elements with use of jquery we provide the user with visualisation matching the measures entered.
-
-When wanting to add a line in the log (which is a basic .txt file), we called the server using ajax and sended the needed information (to log), where after the server added a line to the log (the server knows from the session who made the call).
+In order to get each user's data on login, we use ajax from the jquery library. 
 
 
 \textbf{User Interface Elements}
 
 The interface was built on the Bootstrap front-end framework \citep{bootstrap}. Bootstrap is open-source and provides HTML and CSS templates along with JavaScript components to design and build responsive web applications. For dashboard gauges we made use of the JavaScript plugin \textit{JustGage} \citep{justgage}, while we used \textit{Highcharts JS} \citep{highcharts} for visualising history data. 
 
-Figure \ref{fig:gage} shows an example of creating the gauge for cough with parameters customized for each measure (number of options for the value, colors depending on current value, min and max text labels) 
+Figure xxx shows an example of creating the gauge for cough with parameters customized for each measure (number of options for value, colors depending on current value, min and max text labels) 
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.5]{images/implementation/gage.png}
-\caption{Javascript code for creating a gage. In this case for cough.}
-\label{fig:gage}
-\end{figure}
+Line 312 to 315 in app/index.php 
 
  
 \section{Security}
-As we are working with patients' data we have an ethical responsibility. We handle all the patient's data anonymously such that no patient is identifiable from the data on the server.
-
-In principle this should be sufficient but we added additional security to the system, which we consider as good practise. First of all we use a SSL certificate to keep sensitive information encrypted, when the user sends data to the server. This makes sniffing of data less easy. Since we use JSON files on the server to store patient data, we have restricted the access to the JSON files with use of .htaccess files and .htpasswd files thus when accessing the files you are asked to provide a username and a password in order to get access to that directory on the server. This system is not at all considered as a highly secure website but sufficient for a 14-day trial. A database setup would be a good consideration.
+anonymous
+https
+.htaccess
+ - flaws
+ - sufficient for trial, .. in operation use of database, programming convenience based on previous experience

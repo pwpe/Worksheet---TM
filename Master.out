@@ -21,9 +21,9 @@
 \BOOKMARK [1][-]{section.7.4}{Post Methodological Considerations}{chapter.7}% 21
 \BOOKMARK [0][-]{chapter.8}{Implementation}{}% 22
 \BOOKMARK [1][-]{section.8.1}{Design Changes}{chapter.8}% 23
-\BOOKMARK [1][-]{section.8.2}{Server-side Programming}{chapter.8}% 24
+\BOOKMARK [1][-]{section.8.2}{Server-side}{chapter.8}% 24
 \BOOKMARK [2][-]{subsection.8.2.1}{Session}{section.8.2}% 25
-\BOOKMARK [2][-]{subsection.8.2.2}{Data}{section.8.2}% 26
+\BOOKMARK [2][-]{subsection.8.2.2}{Data Manipulation}{section.8.2}% 26
 \BOOKMARK [1][-]{section.8.3}{Client-side}{chapter.8}% 27
 \BOOKMARK [1][-]{section.8.4}{Security}{chapter.8}% 28
 \BOOKMARK [0][-]{chapter.9}{Study III - Trial with COPD Patients}{}% 29
