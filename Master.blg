@@ -11,45 +11,45 @@ Warning--empty journal in motExace
 Warning--empty journal in sorenson2013
 Warning--empty journal in motStat
 Warning--empty journal in motWHO
-You've used 25 entries,
+You've used 27 entries,
             2330 wiz_defined-function locations,
-            684 strings with 9472 characters,
-and the built_in function-call counts, 13722 in all, are:
-= -- 1501
-> -- 603
-< -- 31
-+ -- 185
-- -- 179
-* -- 1022
-:= -- 2254
-add.period$ -- 83
-call.type$ -- 25
-change.case$ -- 189
-chr.to.int$ -- 25
-cite$ -- 30
-duplicate$ -- 594
-empty$ -- 857
-format.name$ -- 241
-if$ -- 2886
+            696 strings with 9778 characters,
+and the built_in function-call counts, 14763 in all, are:
+= -- 1616
+> -- 637
+< -- 36
++ -- 194
+- -- 188
+* -- 1102
+:= -- 2420
+add.period$ -- 89
+call.type$ -- 27
+change.case$ -- 200
+chr.to.int$ -- 27
+cite$ -- 32
+duplicate$ -- 639
+empty$ -- 928
+format.name$ -- 258
+if$ -- 3108
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 123
-num.names$ -- 125
-pop$ -- 263
+missing$ -- 24
+newline$ -- 133
+num.names$ -- 135
+pop$ -- 275
 preamble$ -- 1
-purify$ -- 214
+purify$ -- 227
 quote$ -- 0
-skip$ -- 515
+skip$ -- 557
 stack$ -- 0
-substring$ -- 764
-swap$ -- 197
-text.length$ -- 15
+substring$ -- 841
+swap$ -- 213
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 300
+type$ -- 324
 warning$ -- 5
-while$ -- 118
+while$ -- 128
 width$ -- 0
-write$ -- 354
+write$ -- 382
 (There were 8 warnings)

@@ -1,33 +1,31 @@
 \BOOKMARK [0][-]{titelblad.0}{Titelblad}{}% 1
 \BOOKMARK [0][-]{chapter.1}{Preface}{}% 2
 \BOOKMARK [0][-]{chapter.2}{Motivation}{}% 3
-\BOOKMARK [0][-]{chapter.3}{The COPD Patient}{}% 4
-\BOOKMARK [0][-]{chapter.4}{Telehealth for COPD}{}% 5
-\BOOKMARK [1][-]{section.4.1}{Current Literature}{chapter.4}% 6
-\BOOKMARK [1][-]{section.4.2}{State of the Art}{chapter.4}% 7
-\BOOKMARK [1][-]{section.4.3}{Interviews with Healthcare Professionals}{chapter.4}% 8
-\BOOKMARK [0][-]{chapter.5}{Personal Informatics}{}% 9
-\BOOKMARK [1][-]{section.5.1}{Why People Track}{chapter.5}% 10
-\BOOKMARK [1][-]{section.5.2}{How People Track}{chapter.5}% 11
-\BOOKMARK [2][-]{subsection.5.2.1}{Deciding and Selecting}{section.5.2}% 12
-\BOOKMARK [2][-]{subsection.5.2.2}{Tracking and Acting}{section.5.2}% 13
-\BOOKMARK [0][-]{chapter.6}{Study I - Interviewing COPD Patients about Needs}{}% 14
-\BOOKMARK [1][-]{section.6.1}{Activity Plan}{chapter.6}% 15
-\BOOKMARK [1][-]{section.6.2}{Own tracking system}{chapter.6}% 16
-\BOOKMARK [0][-]{chapter.7}{Study II - Design Feedback Sessions with COPD Patients}{}% 17
-\BOOKMARK [1][-]{section.7.1}{The Workbook}{chapter.7}% 18
-\BOOKMARK [1][-]{section.7.2}{The Prototype}{chapter.7}% 19
-\BOOKMARK [1][-]{section.7.3}{Activity Plan}{chapter.7}% 20
-\BOOKMARK [1][-]{section.7.4}{Post Methodological Considerations}{chapter.7}% 21
-\BOOKMARK [0][-]{chapter.8}{Implementation}{}% 22
-\BOOKMARK [1][-]{section.8.1}{Design Changes}{chapter.8}% 23
-\BOOKMARK [1][-]{section.8.2}{Server-side Programming}{chapter.8}% 24
-\BOOKMARK [2][-]{subsection.8.2.1}{Session}{section.8.2}% 25
-\BOOKMARK [2][-]{subsection.8.2.2}{Data}{section.8.2}% 26
-\BOOKMARK [1][-]{section.8.3}{Client-side}{chapter.8}% 27
-\BOOKMARK [1][-]{section.8.4}{Security}{chapter.8}% 28
-\BOOKMARK [0][-]{chapter.9}{Study III - Trial with COPD Patients}{}% 29
-\BOOKMARK [0][-]{chapter.10}{Future Research}{}% 30
-\BOOKMARK [0][-]{section*.21}{Bibliography}{}% 31
-\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 32
-\BOOKMARK [1][-]{section.A.1}{Study III - Activity Plan}{appendix.A}% 33
+\BOOKMARK [0][-]{chapter.3}{Telehealth for COPD}{}% 4
+\BOOKMARK [1][-]{section.3.1}{Current Literature}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.2}{State of the Art}{chapter.3}% 6
+\BOOKMARK [0][-]{chapter.4}{Personal Informatics}{}% 7
+\BOOKMARK [1][-]{section.4.1}{Why People Track}{chapter.4}% 8
+\BOOKMARK [1][-]{section.4.2}{How People Track}{chapter.4}% 9
+\BOOKMARK [2][-]{subsection.4.2.1}{Deciding and Selecting}{section.4.2}% 10
+\BOOKMARK [2][-]{subsection.4.2.2}{Tracking and Acting}{section.4.2}% 11
+\BOOKMARK [0][-]{chapter.5}{Study I - Interviewing COPD Patients about Needs}{}% 12
+\BOOKMARK [1][-]{section.5.1}{Activity Plan}{chapter.5}% 13
+\BOOKMARK [1][-]{section.5.2}{Own tracking system}{chapter.5}% 14
+\BOOKMARK [0][-]{chapter.6}{Study II - Design Feedback Sessions with COPD Patients}{}% 15
+\BOOKMARK [1][-]{section.6.1}{The Workbook}{chapter.6}% 16
+\BOOKMARK [1][-]{section.6.2}{The Prototype}{chapter.6}% 17
+\BOOKMARK [1][-]{section.6.3}{Activity Plan}{chapter.6}% 18
+\BOOKMARK [1][-]{section.6.4}{Post Methodological Considerations}{chapter.6}% 19
+\BOOKMARK [0][-]{chapter.7}{Implementation}{}% 20
+\BOOKMARK [1][-]{section.7.1}{Design Changes}{chapter.7}% 21
+\BOOKMARK [1][-]{section.7.2}{Server-side Programming}{chapter.7}% 22
+\BOOKMARK [2][-]{subsection.7.2.1}{Session}{section.7.2}% 23
+\BOOKMARK [2][-]{subsection.7.2.2}{Data}{section.7.2}% 24
+\BOOKMARK [1][-]{section.7.3}{Client-side}{chapter.7}% 25
+\BOOKMARK [1][-]{section.7.4}{Security}{chapter.7}% 26
+\BOOKMARK [0][-]{chapter.8}{Study III - Trial with COPD Patients}{}% 27
+\BOOKMARK [0][-]{chapter.9}{Future Research}{}% 28
+\BOOKMARK [0][-]{section*.21}{Bibliography}{}% 29
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 30
+\BOOKMARK [1][-]{section.A.1}{Study III - Activity Plan}{appendix.A}% 31
